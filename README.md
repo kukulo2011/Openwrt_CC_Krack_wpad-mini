@@ -1,6 +1,6 @@
 # Openwrt_CC_Krack_wpad-mini
 
-wpad-mini package binary for the Chaos Calmer 15.01
+wpad-mini package binary for the Chaos Calmer 15.05.1
 
 usage: download tar, extract, push with scp to your router and update with opkg install wpad-mini....ipk
 
