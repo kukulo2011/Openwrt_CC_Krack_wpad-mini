@@ -4,8 +4,11 @@ wpad-mini package binary (https://github.com/kukulo2011/Openwrt_CC_Krack_wpad-mi
 
 usage for wpad-mini package: download tar, extract, push with scp to your router and update with opkg install wpad-mini....ipk
 
-usage for firmware files: factory firmwares are for flashing Openwrt from original firmware
+usage for firmware files: factory firmwares are for flashing Openwrt from original firmware,
                           sysupgrade firmwares are for flashing from previous Openwrt version
+                          
+
+wr841n-build.sh is the build script for the firmware with Krack update
 
 This file contains the Krackattack patches for the wifi.
 
