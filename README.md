@@ -13,3 +13,9 @@ wr841n-build.sh is the build script for the firmware with Krack update
 This file contains the Krackattack patches for the wifi.
 
 Be sure your router is AR71xx architecture. If it is not or you are unsure, do not use this package - might brick your router.
+
+Code reference used to build the wpad-mini package: git clone -b chaos_calmer git://github.com/openwrt/openwrt.git
+       
+After that build the package according to: https://wiki.openwrt.org/doc/howtobuild/single.package
+
+Used package names to build the wpad-mini: libnl-tiny, hostapd
